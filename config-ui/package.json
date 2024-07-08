@@ -1,0 +1,70 @@
+{
+  "name": "config-ui",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "yarn@3.4.1",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc && eslint . --fix",
+    "prettier": "prettier . --write",
+    "lint-staged": "lint-staged",
+    "prepare": "cd .. && husky install config-ui/.husky"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{html,json,md}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@ahooksjs/use-url-state": "^3.5.1",
+    "@ant-design/icons": "^5.2.6",
+    "@reduxjs/toolkit": "^1.9.7",
+    "ahooks": "^3.7.8",
+    "antd": "^5.14.0",
+    "axios": "^0.21.4",
+    "classnames": "^2.3.2",
+    "cron-parser": "^4.3.0",
+    "cron-validate": "^1.4.3",
+    "dayjs": "^1.10.7",
+    "file-saver": "^2.0.5",
+    "lodash": "^4.17.21",
+    "miller-columns-select": "^1.3.0",
+    "react": "17.0.2",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "17.0.2",
+    "react-is": "^18.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.14.1",
+    "react-transition-group": "^4.4.5",
+    "redux": "^4.2.1",
+    "styled-components": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@types/node": "^18.15.1",
+    "@types/react": "^17.0.73",
+    "@types/react-copy-to-clipboard": "^5.0.4",
+    "@types/react-dom": "^17.0.25",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-transition-group": "^4.4.6",
+    "@types/styled-components": "^5.1.34",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-header": "^3.1.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.5.1",
+    "vite-plugin-svgr": "^4.2.0"
+  }
+}

@@ -1,0 +1,8 @@
+connection_id,id,object_id,execution,actor,action,extra,object_type,project,product,vision,comment,efforted,_raw_data_params,_raw_data_table,_raw_data_id,_raw_data_remark
+1,114,1,1,admin,114,,bug,0,0,rnd,,0,"{""ConnectionId"":1,""ProjectId"":0}",zt_action,0,
+1,115,2,1,admin,115,,bug,0,0,rnd,,0,"{""ConnectionId"":1,""ProjectId"":0}",zt_action,0,
+1,116,3,1,admin,116,,bug,0,0,rnd,,0,"{""ConnectionId"":1,""ProjectId"":0}",zt_action,0,
+1,117,4,1,admin,117,,bug,0,0,rnd,,0,"{""ConnectionId"":1,""ProjectId"":0}",zt_action,0,
+1,165,10,1,dev1,165,,task,7,0,rnd,,0,"{""ConnectionId"":1,""ProjectId"":0}",zt_action,0,
+1,166,11,1,dev1,166,,task,7,0,rnd,,0,"{""ConnectionId"":1,""ProjectId"":0}",zt_action,0,
+1,169,14,1,dev2,169,,task,7,0,rnd,,0,"{""ConnectionId"":1,""ProjectId"":0}",zt_action,0,
